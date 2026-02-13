@@ -52,3 +52,22 @@ To utilize the CFiCS model for classifying counseling session data, follow the s
 6. **Customization**:
    - **Model Architecture**: The `model.py` file defines the graph-based classification model. Modify this file to experiment with different architectures or to tailor the model to specific needs.
    - **Loss Functions and Metrics**: Customize loss calculations in `loss.py` and evaluation metrics in `metrics.py` to align with your project's requirements.
+
+## How to Cite
+
+If you find this work useful, please cite our paper:
+
+```bibtex
+@inproceedings{schmidt-etal-2025-cfics,
+    title     = "{CF}i{CS}: Graph-Based Classification of Common Factors and Microcounseling Skills",
+    author    = "Schmidt, Fabian and Hammerfald, Karin and Haaland Jahren, Henrik and Vlassov, Vladimir",
+    booktitle = "Proceedings of the 10th Workshop on Computational Linguistics and Clinical Psychology (CLPsych 2025)",
+    month     = may,
+    year      = "2025",
+    address   = "Albuquerque, New Mexico",
+    publisher = "Association for Computational Linguistics",
+    url       = "https://aclanthology.org/2025.clpsych-1.9/",
+    doi       = "10.18653/v1/2025.clpsych-1.9",
+    pages     = "106--115",
+}
+```
